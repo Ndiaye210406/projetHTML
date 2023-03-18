@@ -1,0 +1,89 @@
+.fond
+{
+    background-image: url(https://www.afcv.fr/wp-content/uploads/2023/02/visiter-lafrique-du-sud.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.5);
+    -webkit-animation-name:diapo ;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+     
+    animation-name:diapo ;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.page_actuel{
+    color: rgb(255, 0, 0);
+}
+li
+{
+    display: inline-block;
+    position: relative;
+    background-color: black;
+}
+
+.texte
+{
+    color: white;
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    left:1% ;
+    top: 30%;
+    font-size: large;
+    font-weight: bold ; 
+    animation: typing-animation 2s steps(25);  
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+body
+{
+    background-color: rgb(167, 164, 164);
+}
+
+@keyframes typing-animation
+{
+    from
+     {
+        width: 0;
+     }
+}
+
+.texte1
+{
+    position: absolute;
+    left: 3%;
+    font-size: large;
+    top: 40%;
+    color: white;
+}
+
+.M
+{
+    background-color: transparent;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    color: white;
+    font-size: larger;
+}
+
+@-webkit-keyframes diapo
+{
+    0% { background-image: url(https://www.afcv.fr/wp-content/uploads/2023/02/visiter-lafrique-du-sud.jpg);}
+    33% {background-image: url(https://www.en-vols.com/wp-content/uploads/afmm/2023/02/shutterstock_1353953285-1.jpg);}
+    66% { background-image: url(https://www.senegal-shuttle.com/wp-content/uploads/2022/02/goree.jpg);}
+}
+
+a
+{
+    color: white;
+}
+ 

@@ -1,0 +1,133 @@
+body{
+    background-image: url(../media/baobab.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+ }
+a{
+    color: white;
+    text-decoration: none; 
+}
+th{
+    font-size: 80%;
+    background-color: black;
+}
+img{
+    border: 2px solid black;
+    border-radius: 10%;
+}
+table{
+    margin-left: 50%;
+}
+.lac img{
+    width: 30%; 
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.page_actuel{
+    color: rgb(255, 0, 0);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: left; 
+}
+p{
+    font-size: 70%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: 900;
+    transition: 2ms;  
+}
+p:hover{
+    color: rgb(253, 253, 253);
+}
+.img{
+    margin-left: 30%;
+    width: 40%; 
+}
+h2{
+    text-align: center;
+    color: rgb(93, 4, 4);
+    background-color: rgba(179, 179, 179, 0.571);
+    font-size: xx-large;
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 12px;
+    margin-bottom: 10px;
+    background-color: rgba(218, 165, 32, 0.496);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+    top: -100px;
+    display: inline-block;
+    margin-left: 20%;
+}
+.p3{
+    margin-left: 4%;
+    margin-right: 4%;   
+    padding: 10% 5%;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: rgba(97, 169, 169, 0.478);
+}
+
+.box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;    
+}
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.box:hover .content{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.box .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+}
+
+.box:hover .content p
+{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
